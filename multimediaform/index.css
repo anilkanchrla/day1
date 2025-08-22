@@ -17,9 +17,15 @@ h2{
 #audio{
     margin-top: 50px;
     background-color: antiquewhite;
-    padding: 30px;
-    
+    padding: 30px;   
 
+}
+button{
+    width: fit-content;
+    margin: auto;
+}
+#gender{
+    display: flex;
 }
 #song{
     margin: auto;

@@ -1,0 +1,89 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 40px;width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 3px 3px rgb(5, 5, 5, 0.8) ;
+    border-radius: 10px;
+}
+h2{
+    padding: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+#audio{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    padding: 30px;
+    
+
+}
+#song{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+#video{
+    margin-top: 40px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.poster-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+.dahaa{
+    position: absolute;
+    margin-bottom: 90px;
+    margin-left: 460px;
+    border-radius: 10px;
+}
+.simon{
+    position: absolute;
+    margin-bottom: 90px;
+    margin-right: 460px;
+    border-radius: 10px;
+}
+
+
+
+/* Mobile (<= 768px) */
+@media (max-width: 768px) {
+    .poster-container {
+        flex-direction: column;
+        position: static; /* stop absolute positioning */
+    }
+
+    .dahaa,
+    .simon {
+        position: static;
+        margin: 20px 0;   /* stack vertically */
+        width: 80%;       /* responsive size */
+    }
+}
+
+/* Small Mobile (<= 480px) */
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;  /* form adjusts */
+        padding: 20px;
+    }
+
+    .dahaa,
+    .simon {
+        width: 95%;  /* full width posters */
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}

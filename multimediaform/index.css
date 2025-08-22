@@ -92,4 +92,23 @@ button{
     h2 {
         font-size: 18px;
     }
+    .poster-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+.dahaa{
+    position: absolute;
+    margin-bottom: 90px;
+    margin-left: 460px;
+    border-radius: 10px;
+}
+.simon{
+    position: absolute;
+    margin-bottom: 90px;
+    margin-right: 460px;
+    border-radius: 10px;
+}
 }
